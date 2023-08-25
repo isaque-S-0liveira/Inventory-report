@@ -14,9 +14,6 @@ class Importer(ABC):
 
 
 class JsonImporter(Importer):
-    def __init__(self, path: str):
-        super().__init__(path)
-
     def import_data(self) -> List[Product]:
         with open(self.path, "r") as file:
             conteudo = file.read()
@@ -27,8 +24,8 @@ class JsonImporter(Importer):
                     produto["id"],
                     produto["product_name"],
                     produto["company_name"],
-                    produto["expiration_date"],
                     produto["manufacturing_date"],
+                    produto["expiration_date"],
                     produto["serial_number"],
                     produto["storage_instructions"],
                 )
