@@ -2,7 +2,7 @@
 
 ## Contexto
 
-O foco principal deste projeto é, com base nos ensinamentos da **Trybe**, desenvolver um gerador de relatórios de estoque. O objetivo é processar dados de estoque que podem ser fornecidos através de dois formatos de arquivo diferentes: **CSV** e **JSON**. A aplicação deve ser capaz de ler esses arquivos, importar os dados de forma estruturada e gerar relatórios que resumem as informações contidas no estoque.
+O foco principal deste projeto é, com base nos ensinamentos da **Trybe**, desenvolver um gerador de relatórios de estoque. O objetivo é processar dados de estoque que podem ser fornecidos através de dois formatos de arquivo diferentes: **CSV** e **JSON**. A aplicação é capaz de ler esses arquivos, importar os dados de forma estruturada e gerar relatórios que resumem as informações contidas no estoque.
 
 <details>
   <summary>O que é a Trybe?🤔</summary>
